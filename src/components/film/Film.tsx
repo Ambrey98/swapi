@@ -1,3 +1,4 @@
+import React from 'react';
 import { useFav } from "context/FavContext";
 import { useParams } from "react-router-dom";
 
@@ -7,7 +8,7 @@ function Film (props: any) {
   const currentFilm = props.films[Number(id) - 1];
   const [fav, updateFav] = useFav();
 
-  const clicked = (ev: any) => {
+  const clicked = () => {
     updateFav('films', Number(id), currentFilm);
   };
 
