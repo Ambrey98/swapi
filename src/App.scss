@@ -1,0 +1,21 @@
+main {
+  text-align: center;
+
+  .list-container {
+    
+    ul {
+      padding: 0;
+
+      a {
+        display: block;
+        margin-bottom: 15px;
+        text-decoration: none;
+        color: rgb(130, 119, 119)
+      }
+
+      .activeClass {
+        color: blue;
+      }
+    }
+  }
+}

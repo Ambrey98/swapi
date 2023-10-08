@@ -1,0 +1,23 @@
+nav {
+  display: flex;
+  background-color: rgba(128, 128, 128, 0.339);
+
+  .list {
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+
+    a {
+      width: 100px;
+      padding: 20px;
+      font-size: 20px;
+      text-decoration: none;
+      text-align: center;
+      color: rgb(23, 70, 23);
+    }
+
+    .active {
+      color: rgba(86, 160, 63, 0.987);
+    }
+  }
+}
